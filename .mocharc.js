@@ -1,8 +1,7 @@
 "use strict";
 module.exports = {
-	spec: "./src/test/**/*.test.js",
-	timeout: 60000,
-	ui: "bdd",
-	"forbid-only": true,
-	sort: true,
+  spec: "./src/**/*.test.js",
+  timeout: 60000,
+  ui: "bdd",
+  sort: true,
 };
